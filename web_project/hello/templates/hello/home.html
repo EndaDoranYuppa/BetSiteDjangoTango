@@ -1,0 +1,12 @@
+{% extends "hello/layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+{% for student in student_number %}
+    {{ bets.name}}
+    {{ bets.sport}}
+    {{ bets.odds}}
+{% endfor %}
+<p>HOME PAGE FOR VSC DJANGO</p>
+{% endblock %}
